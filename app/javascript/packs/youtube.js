@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
-import Youtube from '../components/Youtube';
+import App from '../components/App';
 
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
-    <Youtube />
+    <App />
     , document.querySelector('#youtube')
   )
 })
