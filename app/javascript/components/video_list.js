@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import VideoItem from './VideoItem'
+import VideoItem from './video_item'
 
 export default class VideoList extends Component{
   state = { videos: ''}

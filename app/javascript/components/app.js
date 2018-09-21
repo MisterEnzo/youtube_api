@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
 //  components
-import SearchBar from './SearchBar';
-import VideoList from './VideoList';
+import SearchBar from './search_bar';
+import VideoList from './video_list';
 
 const App = () => {
   return(
