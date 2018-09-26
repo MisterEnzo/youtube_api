@@ -4,14 +4,18 @@ import React, { Component } from 'react';
 import SearchBar from './search_bar';
 import VideoList from './video_list';
 
-const App = () => {
-  return(
-    <div>
-      <h1> Youtube App </h1>
-      <SearchBar />
-      <VideoList />
-    </div>
-  );
+const API_KEY = "AIzaSyD13l-C_YtiG4L28LepadOYOFKTwLyoW-o"
+
+const App extends Component {
+  render(){
+    return(
+      <div>
+        <h1> Youtube App </h1>
+        <SearchBar />
+        <VideoList />
+      </div>
+    );
+  }
 }
 
 export default App;
