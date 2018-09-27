@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
 
 export default class SearchBar extends Component {
-  state = { searchTerm: '' }
+  state = { term: '' }
+
+  onInputChange(term){
+    this.setState({term});
+    this.props.videoSearch(term);
+  }
 
   render() {
     return(
@@ -9,7 +14,7 @@ export default class SearchBar extends Component {
         <h2>SearchBar</h2>
         <input type="text"
           value={this.state.searchTerm}
-          onChange={event => this.setState({ searchTerm: event.target.value })}
+          onChange={event => this.onInputChange(event.target.value)}
         />
       </div>
     )

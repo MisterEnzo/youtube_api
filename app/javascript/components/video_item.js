@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 
-const VideoItem = (props) => {
+const VideoItem = ({video}) => {
+
+
   return(
-    <div>
-      <p>Video Thumbnail</p>
-      <p>Video Title</p>
-    </div>
+      <p>Video Item</p>
   )
 }
 
