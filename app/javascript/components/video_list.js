@@ -16,9 +16,7 @@ const VideoList = (props) => {
     <div>
       <h2>Video List</h2>
       <ul>
-        <li><VideoItem /></li>
-        <li><VideoItem /></li>
-        <li><VideoItem /></li>
+        {videoItems}
       </ul>
     </div>
   );
