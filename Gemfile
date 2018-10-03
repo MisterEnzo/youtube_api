@@ -33,6 +33,10 @@ gem 'webpacker'
 # install react-rails
 gem 'react-rails'
 
+# use rack-cors to enable CORS for youtube api
+gem 'rack-cors', require: 'rack/cors'
+
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 

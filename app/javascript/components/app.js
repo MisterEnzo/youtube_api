@@ -11,7 +11,7 @@ const API_KEY = "AIzaSyD13l-C_YtiG4L28LepadOYOFKTwLyoW-o"
 class App extends Component {
   state = {
     videos: [],
-    selectedVideo: ''
+    selectedVideo: null
   }
 
   videoSearch = (term) => {
