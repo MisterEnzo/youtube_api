@@ -23,6 +23,10 @@ class App extends Component {
     });
   }
 
+  videoSelect = (selectedVideo) => {
+    this.setState({selectedVideo});
+  }
+
   componentDidMount() {
     this.videoSearch("boku no hero");
   }
@@ -33,7 +37,8 @@ class App extends Component {
         <h1> Youtube App </h1>
         <VideoDetail video={this.state.selectedVideo} />
         <SearchBar videoSearch={this.videoSearch} />
-        <VideoList videos={this.state.videos} />
+        <VideoList videos={this.state.videos}
+                   videoSelect={this.videoSelect} />
       </div>
     );
   }
