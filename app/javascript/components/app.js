@@ -6,7 +6,7 @@ import VideoDetail from './video_detail';
 import SearchBar from './search_bar';
 import VideoList from './video_list';
 
-const API_KEY = "AIzaSyD13l-C_YtiG4L28LepadOYOFKTwLyoW-o"
+const API_KEY = "" //insert your own api key here
 
 class App extends Component {
   state = {
